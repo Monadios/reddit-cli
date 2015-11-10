@@ -11,4 +11,6 @@ def get_subreddit_posts(subreddit, post_limit):
     return posts
 
 def list_posts(posts):
-    for post in posts: print(post)
+    for post in posts:
+        words = post.split(' ')
+        print(word[0] + word[1])

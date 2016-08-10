@@ -38,7 +38,7 @@ def list_posts(posts):
         print(color(purple, '-' * length))
         print(color(white, words[1] + color(blue,' :: ')+ color(red, words[0])))
         print(color(green , post.url))
-        print(len(post.comments))
+        print(post.num_comments)
     print(color(purple, '-' * length))
 
 
